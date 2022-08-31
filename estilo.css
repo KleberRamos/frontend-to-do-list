@@ -1,3 +1,105 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+
+}
 body {
-    background-color: lightpink;
+    font-family: 'Indie Flower', cursive;
+}
+
+.magem {
+    width: 2500px; 
+    margin: 1500px;
+}
+
+main {
+    max-width: 786px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 700;  
+    text-transform: uppercase;
+}
+
+h1 {
+    color: rgb(127, 82, 146); 
+    text-align: center;
+}
+
+.botao {
+    background-color: rgb(208, 174, 240);
+    padding: 10px;
+    border: palevioletred;
+    flex: 1;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50px;
+    color: rgb(160, 5, 139);
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.botaoexcluir {
+    background-color: rgb(236, 212, 234);
+    color: red;
+    width: 10%;
+    margin-left: 10px;  
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    align-items: center;
+    padding: 5px;
+    flex: 1;
+    border-radius: 10px;
+    border: rgb(8, 7, 8);
+}
+
+.caixa {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#lista {
+    list-style: none;
+}
+
+#lista > li {
+    background-color: #dbdbdb;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botaozinho {
+    background-color: #bdbcbc;
+    width: 16px;
+    height: 16px;
+    line-height: 0;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+#nova-tarefa {
+    background-color: #f1f1f1;
+    border: 3px solid black;
+    padding: 4px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    font-size: 14px;
+    color: #0f1726;
+    border-radius: 4px;
+    margin-top: 30px;
 }
